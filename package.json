@@ -1,0 +1,43 @@
+{
+  "name": "bootable-environment",
+  "version": "0.1.0",
+  "description": "Environment initialization phase for Bootable.",
+  "keywords": [
+    "boot",
+    "init",
+    "startup"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jaredhanson/bootable-environment.git"
+  },
+  "bugs": {
+    "url": "http://github.com/jaredhanson/bootable-environment/issues"
+  },
+  "author": {
+    "name": "Jared Hanson",
+    "email": "jaredhanson@gmail.com",
+    "url": "http://www.jaredhanson.net/"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
+  "main": "./lib",
+  "dependencies": {
+    "scripts": "0.1.x",
+    "debug": "0.7.x"
+  },
+  "devDependencies": {
+    "mocha": "1.x.x",
+    "chai": "1.x.x"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/mocha --reporter spec --require test/bootstrap/node test/*.test.js"
+  },
+  "engines": {
+    "node": ">= 0.4.0"
+  }
+}
