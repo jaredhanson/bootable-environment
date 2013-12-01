@@ -1,6 +1,6 @@
 {
   "name": "bootable-environment",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Environment initialization phase for Bootable.",
   "keywords": [
     "boot",
