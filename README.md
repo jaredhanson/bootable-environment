@@ -1,7 +1,9 @@
 # bootable-environment
 
-[![Build](https://travis-ci.org/jaredhanson/bootable-environment.png)](http://travis-ci.org/jaredhanson/bootable-environment)
-[![Dependencies](https://david-dm.org/jaredhanson/bootable-environment.png)](http://david-dm.org/jaredhanson/bootable-environment)
+[![Build](https://travis-ci.org/jaredhanson/bootable-environment.png)](https://travis-ci.org/jaredhanson/bootable-environment)
+[![Coverage](https://coveralls.io/repos/jaredhanson/bootable-environment/badge.png)](https://coveralls.io/r/jaredhanson/bootable-environment)
+[![Quality](https://codeclimate.com/github/jaredhanson/bootable-environment.png)](https://codeclimate.com/github/jaredhanson/bootable-environment)
+[![Dependencies](https://david-dm.org/jaredhanson/bootable-environment.png)](https://david-dm.org/jaredhanson/bootable-environment)
 
 Environment initialization phase for [Bootable](https://github.com/jaredhanson/bootable).
 
