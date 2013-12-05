@@ -1,3 +1,5 @@
+/* global describe, it, expect */
+
 var environment = require('..');
 
 describe('bootable-environment', function() {
