@@ -19,6 +19,8 @@ Register the phase to be invoked during the application boot sequence.
 app.phase(require('bootable-environment')('config/environments'));
 ```
 
+If no path is specified `bootable-environment` will default to looking in `etc/env`
+
 When invoked, this phase will load an environment initialization script for the
 current environment (as set by `NODE_ENV`).  As a special case, if an `all.js`
 script exists, that file will be loaded for *all* environments, prior to the
